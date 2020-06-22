@@ -1,9 +1,8 @@
 ---
 layout: post
 title:  "Cyber Threats to Watch in 2020"
+author: "Rinoy"
 ---
-
-# Cyber Threats to Watch in 2020
 
 Throughout 2019, ransomware was the biggest threat and its likely the trend will continue in the coming year. Within the first half of the year, Forbes reported a 52% increase in cyber threats from the 2018's first half. The report yielded 3,800 publicly disclosed breaches which did cut across all sectors, from entertainment, finance, healthcare, and even states. The same trend is expected to go on. However, organizations and other institutions should be enlightened on what to look for. Because of the ever-evolving Cybersecurity environment, the tactics should focus more on the new sectors and technologies. Below is a brief look into the major Cybersecurity threats that companies should look out for in 2020 and a look into why penetration tests should be part of an organization's security policy.
 ### Emerging Technologies 
