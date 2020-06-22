@@ -33,5 +33,3 @@ Organizations, therefore, need to conduct regular testing of their systems for t
 ## Conclusion
 2020 Cybersecurity threats are going to be weird, intense and extremely challenging to contain. Data breaches do not seem to end or slow down anytime soon. The situation will require a corporation of both skilled personnel and individuals with average know-how on basic cyber hygiene. Security personnel will have to use proactive strategies and not reactive to prevent attack other than compensating for the costly losses. However, as an average reader who is reading this article, you will have to play your part in an attempt to identify phishing attempts by cybercriminals. Also, ensure that you implement multi-factor authentication and strong password for your online niche and as well, hold companies responsible when your data has been mishandled. 
 Additionally, penetration testing should be a regular exercise done by every organization with an aim of detecting, recently discovered or previously unknown vulnerabilities.  The frequency and intensity of the test depend on the nature of the test to be performed and the aim of carrying out that test.
-
-[Home](./)
