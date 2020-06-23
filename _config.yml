@@ -2,7 +2,7 @@ title: Rinoy R K
 # logo: /assets/img/logo.png
 description: Full stack developer
 show_downloads: false
-google_analytics:
+google_analytics: true
 theme: jekyll-theme-minimal
 
 defaults:
