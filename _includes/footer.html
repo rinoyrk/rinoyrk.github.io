@@ -22,8 +22,8 @@
         {% endcapture %}
 
         {{ site.data.locales[lang].meta
-          | default: 'Powered by :PLATFORM with :THEME theme.'
-          | replace: ':PLATFORM', _platform | replace: ':THEME', _theme
+          | default: 'Powered by :PLATFORM'
+          | replace: ':PLATFORM', _platform
         }}
 
       </p>
