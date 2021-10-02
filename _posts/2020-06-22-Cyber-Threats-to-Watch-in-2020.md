@@ -1,13 +1,17 @@
 ---
 layout: post
 title:  "Cyber Threats to Watch in 2020"
-author: "Rinoy"
+author: "Rinoy R K"
+date: 2020-06-22 11:33:00 +0800
+categories: [Blog, Cyber Security]
 tags: ["Cyber security", "AI", "Ransomware", "Penetration", "Phishing"]
+math: true
+mermaid: true
 ---
 
 Throughout 2019, ransomware was the biggest threat and its likely the trend will continue in the coming year. Within the first half of the year, Forbes reported a 52% increase in cyber threats from the 2018's first half. The report yielded 3,800 publicly disclosed breaches which did cut across all sectors, from entertainment, finance, healthcare, and even states. The same trend is expected to go on. However, organizations and other institutions should be enlightened on what to look for. Because of the ever-evolving Cybersecurity environment, the tactics should focus more on the new sectors and technologies. Below is a brief look into the major Cybersecurity threats that companies should look out for in 2020 and a look into why penetration tests should be part of an organization's security policy.
 ### Emerging Technologies 
-Cybersecurity threats in 2020 are likely to take advantage of the superfluity of emerging technologies. Innovative technologies like Machine Learning which is on the rise, 5G and [Artificial Intelligence](https://amzn.to/2Cu9fW5) are likely to impact and shape the Cybersecurity landscape both negatively and positively.  For instance, more people are adopting AI in their business and other day-to-day business operations as it reduces workload and cuts on several operational costs. At the same time, the wide adoption of the technology implies that more Cybersecurity threats will emerge as blind spots are created by algorithmic biases.  
+Cybersecurity threats in 2020 are likely to take advantage of the superfluity of emerging technologies. Innovative technologies like Machine Learning which is on the rise, 5G and [Artificial Intelligence](https://amzn.to/3D3jOth) are likely to impact and shape the Cybersecurity landscape both negatively and positively.  For instance, more people are adopting AI in their business and other day-to-day business operations as it reduces workload and cuts on several operational costs. At the same time, the wide adoption of the technology implies that more Cybersecurity threats will emerge as blind spots are created by algorithmic biases.  
 Similarly, the adoption of a 5G network will lead to new Cybersecurity threats. the attack surface is bound to increase accordingly with the rate of adoption of 5G.  Higher bandwidth will enable black-hats to launch stronger attacks of higher magnitudes over a wider cyber environment. 2020 will see an increase in cyber-attacks since 5G is a conversation to a network composed purely of software. This will call for a reassessment of the current security methods in place to counter the various vulnerabilities that are prone to software.
 
 ### Cloud Storage
@@ -21,10 +25,10 @@ Deep fakes are human image synthesis or artificial renderings of human beings. T
 Deepfakes can be used maliciously by black hats and soon it will be on hell of a threat to Cybersecurity. The technology can be used to commit high magnitude frauds through synthetic identities or possibly to influence the 2020 elections among many other possibilities. It is therefore advisable for every organization, individual or even state agents to maintain a healthy skepticism in the face of fabricated videos. 2020 will see companies and large corporations lose a lot of money, as phishing attempts will be more convincing than before the emergence of deepfakes.  
 ### Phishing Attacks
 This is the bread and butter of Cybersecurity threats. With the increased number of loopholes and vulnerabilities in the cyber environment, cybercriminals are likely to take advantage and launch phishing attacks on various platforms as per their interests or motive. In 2019, various schools and places fell victim to spear-phishing attacks.
-[Phishing attacks](https://amzn.to/2Z08YBR) may seem to be an old Cybersecurity threat, but it will crouch into 2020 due to its sheer effectiveness. A report by Data Breach Digest in 2018, indicated that approximately 90% of data loss incidents are usually due to phishing or social engineering. Remember it only takes the effort of a single employee clicking a phony leak to expose the entire organization to cyber-attack. 
+[Phishing attacks](https://amzn.to/3D4qW8F) may seem to be an old Cybersecurity threat, but it will crouch into 2020 due to its sheer effectiveness. A report by Data Breach Digest in 2018, indicated that approximately 90% of data loss incidents are usually due to phishing or social engineering. Remember it only takes the effort of a single employee clicking a phony leak to expose the entire organization to cyber-attack. 
 
 ## Need for Penetration Testing (Pentesting)
-With cyber-attacks becoming the order of the day, it is more significant than ever before to perform a regular vulnerability scan and [penetration testing](https://amzn.to/3dn4URj) to spot vulnerabilities and ensure that the set cyber controls are efficiently working. 
+With cyber-attacks becoming the order of the day, it is more significant than ever before to perform a regular vulnerability scan and [penetration testing](https://amzn.to/3B2FmFH) to spot vulnerabilities and ensure that the set cyber controls are efficiently working. 
 Organizations, therefore, need to conduct regular testing of their systems for the following key reasons;
 * To determine security loopholes in the hardware or infrastructure, weakness in software and possible inner threats by employees.
 * To ensure controls have been properly implemented and are effective.
