@@ -32,6 +32,7 @@ Hi, I'm Rinoy R K, a Full-Stack Developer. Focused on code quality. Passionate t
 - jQuery
 - React.js
 - Next.js
+- React Native
 
 ### Python
 
