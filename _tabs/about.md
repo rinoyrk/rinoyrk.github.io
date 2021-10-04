@@ -35,9 +35,9 @@ Hi, I'm Rinoy R K, a Full-Stack Developer. Focused on code quality. Passionate t
 
 ### Python
 
-    - Python
-    - Django
-    - Flask
+    * Python
+    * Django
+    * Flask
 
 ### Database
 
