@@ -17,38 +17,38 @@ Hi, I'm Rinoy R K, a Full-Stack Developer. Focused on code quality. Passionate t
 
 ### HTML
 
-    - HTML
-    - JSX
-    - Jekyll
+- HTML
+- JSX
+- Jekyll
 
 ### CSS
 
-    - CSS3
-    - Bootstrap
+- CSS3
+- Bootstrap
 
 ### Javascript
 
-    - Javascript
-    - jQuery
-    - React.js
-    - Next.js
+- Javascript
+- jQuery
+- React.js
+- Next.js
 
 ### Python
 
-    * Python
-    * Django
-    * Flask
+- Python
+- Django
+- Flask
 
 ### Database
 
-    - PostgreSQL
-    - MySQL
-    - SQLite
-    - Redis
-    - RethinkDB
+- PostgreSQL
+- MySQL
+- SQLite
+- Redis
+- RethinkDB
 
 ### Build Tools
 
-    - Grunt
-    - Webpack
+- Grunt
+- Webpack
 
