@@ -6,12 +6,13 @@ order: 4
 
 
 Hi, I'm Rinoy R K, a Full-Stack Developer. Focused on code quality. Passionate to develop challenging projects.
-**Current Focus**: Python | React | React Native
 
+> **Current Focus**: Python | React | React Native
+<!-- 
 ## Experience
 
 ## Projects
 
 ## Skills
 
-## Education
+## Education -->
