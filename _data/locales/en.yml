@@ -88,3 +88,31 @@ post:
 categories:
   category_measure: categories
   post_measure: posts
+
+
+
+collection:
+  published: 'on'
+  updated: Updated
+  timeago:
+    day: days ago
+    hour: hours ago
+    minute: minutes ago
+    just_now: just now
+  words: words
+  pageview_measure: views
+  read_time:
+    unit: min
+    prompt: read
+  relate_posts: Further Reading
+  share: Share
+  button:
+    next: Newer
+    previous: Older
+    copy_code:
+      succeed: Copied!
+    share_link:
+      title: Copy link
+      succeed: Link copied successfully!
+  # pinned prompt of posts list on homepage
+  pin_prompt: Pinned

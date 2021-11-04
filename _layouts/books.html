@@ -1,0 +1,104 @@
+---
+layout: default
+# The books' layout
+---
+
+{% include lang.html %}
+
+<div class="row">
+
+  <div id="post-wrapper" class="col-12 col-lg-11 col-xl-8">
+
+    <div class="post pl-1 pr-1 pl-sm-2 pr-sm-2 pl-md-4 pr-md-4">
+
+      <h1 data-toc-skip>{{ page.title }}</h1>
+
+      <div class="post-meta text-muted d-flex flex-column">
+        <!-- Published date and author -->
+        <div>
+          <span class="semi-bold">
+            {{ page.author | default: site.social.name }}
+          </span>
+          {% capture _preposition %}{{ site.data.locales[lang].post.published }}{% endcapture %}
+          {% include timeago.html date=page.date tooltip=true preposition=_preposition %}
+        </div>
+
+        <div>
+          <!-- lastmod -->
+          {% if page.last_modified_at %}
+          <span>
+            {{ site.data.locales[lang].post.updated }}
+            {% include timeago.html date=page.last_modified_at class="lastmod" tooltip=true %}
+          </span>
+          {% endif %}
+
+          <!-- read time -->
+          {% include read-time.html content=content prompt=true %}
+
+          <!-- page views -->
+          {% if site.google_analytics.pv.proxy_endpoint or site.google_analytics.pv.cache_path %}
+          <span id="pv" class="pageviews">
+            <i class="fas fa-spinner fa-spin fa-fw"></i>
+          </span>
+          {{ site.data.locales[lang].post.pageview_measure }}
+          {% endif %}
+
+        </div>
+
+      </div> <!-- .post-meta -->
+
+      <div class="post-content">
+
+        {% if page.image.src %}
+          <img src="{{ page.image.src }}"
+            class="preview-img"
+            alt="{{ page.image.alt | default: "Preview Image" }}"
+            {% if page.image.width %}width="{{ page.image.width }}"{% endif %}
+            {% if page.image.height %}height="{{ page.image.height }}"{% endif %}>
+        {% endif %}
+
+        {{ content }}
+
+        {% if page.books.size > 0 %}
+
+        <div class="mt-5 mb-2 mb-sm-4">
+            <div class="card-deck mb-4">
+            {% for book in page.books %}
+              <div class="card">
+                <a href="{{ book.url | relative_url }}">
+                  <div class="card-body">
+                    {% include timeago.html date=book.date class="small" %}
+                    <h3 class="pt-0 mt-1 mb-3" data-toc-skip>{{ book.title }}</h3>
+                    <div class="text-muted small">
+                      <p>
+                        {% include no-linenos.html content=book.content %}
+                        {{ content | markdownify | strip_html | truncate: 200 }}
+                      </p>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            {% endfor %}
+            </div> <!-- .card-deck -->
+          </div> <!-- #related-posts -->
+
+        {% endif %}
+
+      </div>
+
+    </div> <!-- .post -->
+
+
+  </div> <!-- #post-wrapper -->
+
+  {% assign enable_toc = false %}
+
+  {% if site.toc and page.toc %}
+    {% if content contains '<h2' or content contains '<h3' %}
+      {% assign enable_toc = true %}
+    {% endif %}
+  {% endif %}
+
+  {% include panel.html toc=enable_toc %}
+
+</div> <!-- .row -->
