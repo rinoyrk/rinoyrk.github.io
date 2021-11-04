@@ -19,3 +19,5 @@ books:
     title: 'New book2'
     content: 'This the content2'
 ---
+
+Test content to render
