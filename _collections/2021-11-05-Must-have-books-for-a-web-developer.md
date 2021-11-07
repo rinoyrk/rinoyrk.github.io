@@ -18,6 +18,10 @@ books:
     url: '#'
     title: 'New book2'
     content: 'This the content2'
+- one more1:
+    url: '#'
+    title: 'New book3'
+    content: 'This the content3'
 ---
 
 Test content to render
