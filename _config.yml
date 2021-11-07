@@ -144,7 +144,7 @@ defaults:
       path: ''
       type: library             # see `site.collections`
     values:
-      layout: library
+      layout: books
       permalink: /library/:title/
       # dynamic_title: true    # Hide title in mobile screens.
 
