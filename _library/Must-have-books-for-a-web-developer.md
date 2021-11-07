@@ -3,8 +3,6 @@ layout: books
 title:  "Must have books for a web developer"
 author: "Rinoy R K"
 date: 2021-11-08 11:33:00 +0800
-math: true
-mermaid: true
 books:
  - item 1:
     url: '#'
