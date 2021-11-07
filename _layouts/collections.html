@@ -5,45 +5,11 @@ layout: page
 
 {% include lang.html %}
 
-{% assign pinned = site.collections | where: "pin", "true" %}
-{% assign default = site.collections | where_exp: "item", "item.pin != true" %}
 
-{% assign collections = "" | split: "" %}
-
-<!-- Get pinned collections -->
-
-{% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
-{% assign pinned_num = pinned.size | minus: offset %}
-
-{% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
-    {% assign collections = collections | push: pinned[i] %}
-  {% endfor %}
-{% else %}
-  {% assign pinned_num = 0 %}
-{% endif %}
-
-
-<!-- Get default collections -->
-
-{% assign default_beg = offset | minus: pinned.size %}
-
-{% if default_beg < 0 %}
-  {% assign default_beg = 0 %}
-{% endif %}
-
-{% assign default_num = paginator.collections | size | minus: pinned_num  %}
-{% assign default_end = default_beg | plus: default_num | minus: 1 %}
-
-{% if default_num > 0 %}
-  {% for i in (default_beg..default_end) %}
-    {% assign collections = collections | push: default[i] %}
-  {% endfor %}
-{% endif %}
 
 <div id="post-list">
 
-{% for collection in collections %}
+{% for collection in site.collections %}
 
   <div class="post-preview">
     <h1>
@@ -92,6 +58,3 @@ layout: page
 
 </div> <!-- #post-list -->
 
-{% if paginator.total_pages > 0 %}
-  {% include post-paginator.html %}
-{% endif %}
