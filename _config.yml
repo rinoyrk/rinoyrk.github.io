@@ -146,7 +146,7 @@ defaults:
     values:
       layout: books
       permalink: /library/:title/
-      # dynamic_title: true    # Hide title in mobile screens.
+      dynamic_title: true    # Hide title in mobile screens.
 
 sass:
   style: compressed
