@@ -5,7 +5,7 @@ layout: page
 
 {% include lang.html %}
 
-{% assign collections = site.collections | where_exp: "item", "item.label == 'collections'" %}
+{% assign library = site.library | where_exp: "item", "item.label == 'library'" %}
 
 
 
@@ -13,7 +13,7 @@ layout: page
 
 <div id="post-list">
 
-{% for collection in collections %}
+{% for collection in library %}
 
   <div class="post-preview">
     <h1>
