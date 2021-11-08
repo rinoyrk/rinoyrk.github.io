@@ -145,7 +145,7 @@ defaults:
       type: library             # see `site.collections`
     values:
       layout: books
-      permalink: /books/:title/
+      permalink: /library/:title/
 
 sass:
   style: compressed
