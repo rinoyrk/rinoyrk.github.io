@@ -65,13 +65,12 @@ layout: default
             <div class="card-deck mb-4">
             {% for book in page.books %}
               <div class="card">
-                <a href="{{ book.url | relative_url }}">
+                <a href="{{ book.ext_url }}">
                   <div class="card-body">
-                    {% include timeago.html date=book.date class="small" %}
                     <h3 class="pt-0 mt-1 mb-3" data-toc-skip>{{ book.title }}</h3>
                     <div class="text-muted small">
                       <p>
-                        {% include no-linenos.html content=book.content %}
+                        {% include no-linenos.html content=book.description %}
                         {{ content | markdownify | strip_html | truncate: 200 }}
                       </p>
                     </div>

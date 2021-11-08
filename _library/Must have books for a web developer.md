@@ -5,21 +5,25 @@ author: "Rinoy R K"
 date: 2021-11-08 11:33:00 +0800
 books:
    item 1:
-      url: '#'
+      ext_url: '#'
       title: 'New book'
-      content: 'This the content'
+      description: 'This the content'
    item 2:
-      url: '#'
+      ext_url: '#'
       title: 'New book1'
-      content: 'This the content1'
+      description: 'This the content1'
    one more:
-      url: '#'
+      ext_url: '#'
       title: 'New book2'
-      content: 'This the content2'
+      description: 'This the content2'
    one more1:
-      url: '#'
+      ext_url: '#'
       title: 'New book3'
-      content: 'This the content3'
+      description: 'This the content3'
+   New book4:
+      ext_url: '#'
+      title: 'New book4'
+      description: 'This the content3'
 ---
 
 Test content to render
