@@ -59,14 +59,14 @@ layout: default
             <div class="card-deck mb-4">
             {% for book in page.books %}
               <div class="card">
-                {% if book.image.src %}
-                  <img src="{{ book.image.src }}"
-                    class="preview-img"
-                    alt="{{ book.image.alt | default: "Preview Image" }}"
-                    {% if book.image.width %}width="{{ book.image.width }}"{% endif %}
-                    {% if book.image.height %}height="{{ book.image.height }}"{% endif %}>
-                {% endif %}
+                
                 <a href="{{ book.ext_url }}">
+                  {% if book.image %}
+                  <img src="{{ book.image }}"
+                    class="preview-img"
+                    alt="{{ book.image_alt | default: "Preview Image" }}"
+                    >
+                {% endif %}
                   <div class="card-body">
                     <h3 class="pt-0 mt-1 mb-3" data-toc-skip>{{ book.title }}</h3>
                     <div class="text-muted small">
