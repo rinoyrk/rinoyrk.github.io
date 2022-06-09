@@ -59,19 +59,19 @@ layout: default
             <div class="card-deck mb-4">
             {% for book in page.books %}
               <div class="card">
-                {% if book.image.src %}
-                  <img src="{{ book.image.src }}"
+                {% if book[0].image.src %}
+                  <img src="{{ book[0].image.src }}"
                     class="preview-img"
-                    alt="{{ book.image.alt | default: "Preview Image" }}"
-                    {% if book.image.width %}width="{{ book.image.width }}"{% endif %}
-                    {% if book.image.height %}height="{{ book.image.height }}"{% endif %}>
+                    alt="{{ book[0].image.alt | default: "Preview Image" }}"
+                    {% if book[0].image.width %}width="{{ book[0].image.width }}"{% endif %}
+                    {% if book[0].image.height %}height="{{ book[0].image.height }}"{% endif %}>
                 {% endif %}
-                <a href="{{ book.ext_url }}">
+                <a href="{{ book[0].ext_url }}">
                   <div class="card-body">
-                    <h3 class="pt-0 mt-1 mb-3" data-toc-skip>{{ book.title }}</h3>
+                    <h3 class="pt-0 mt-1 mb-3" data-toc-skip>{{ book[0].title }}</h3>
                     <div class="text-muted small">
                       <p>
-                        {% include no-linenos.html content=book.description %}
+                        {% include no-linenos.html content=book[0].description %}
                         {{ content | markdownify | strip_html | truncate: 200 }}
                       </p>
                     </div>
