@@ -64,7 +64,7 @@ layout: default
                   {% if book.image %}
                   <img data-src="{{ book.image }}" src="{{ book.image }}"
                     class="preview-img"
-                    alt="{{ book.image_alt | default: "{{ book.title }}" }}"
+                    alt="{{ book.image_alt | default: book.title }}"
                     >
                 {% endif %}
                   <div class="card-body">
