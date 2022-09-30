@@ -1,18 +1,18 @@
 ---
 layout: books
-title:  "Must have books for a web developer"
+title:  "Must have books for a JavaScript developer"
 author: "Rinoy R K"
-date: 2021-11-08 11:33:00 +0800
+date: 2022-09-29 11:33:00 +0800
 books:
-   - ext_url: '#'
-     title: 'Code Complete'
+   - ext_url: 'https://amzn.to/3SMnSWA'
+     title: 'Professional JavaScript for Web Developers'
      description: 'This the content'
-     image: 'https://m.media-amazon.com/images/I/71zsPE-Qc5L._AC_UY218_.jpg'
+     image: '/assets/img/books/js/Professional-JavaScript-for-Web-Developers..jpg'
    
-   - ext_url: '#'
-     title: 'New book1'
+   - ext_url: 'https://amzn.to/3rkXass'
+     title: 'JavaScript the Definitive Guide'
      description: 'This the content1'
+     image: '/assets/img/books/js/JavaScript-the-Definitive-Guide.jpg'
+
    
 ---
-
-Test content to render
