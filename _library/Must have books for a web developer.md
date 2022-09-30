@@ -7,11 +7,10 @@ books:
    - ext_url: 'https://amzn.to/3SMnSWA'
      title: 'Professional JavaScript for Web Developers'
      description: 'This the content'
-     image: '/assets/img/books/js/Professional-JavaScript-for-Web-Developers..jpg'
+     image: '/assets/img/books/js/Professional-JavaScript-for-Web-Developers.jpg'
    
    - ext_url: 'https://amzn.to/3rkXass'
      title: 'JavaScript the Definitive Guide'
      description: 'This the content1'
      image: '/assets/img/books/js/JavaScript-the-Definitive-Guide.jpg'
 ---
-Test content for page
