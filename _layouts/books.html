@@ -60,11 +60,11 @@ layout: default
             {% for book in page.books %}
               <div class="card" style="background-color: #ffffff0f;">
                 
-                <a rel="nofollow" target="_blank" href="{{ book.ext_url }}" title={{ book.title }}>
+                <a rel="nofollow" target="_blank" href="{{ book.ext_url }}" title="{{ book.title }}">
                   {% if book.image %}
                   <img data-src="{{ book.image }}" src="{{ book.image }}"
                     class="preview-img"
-                    alt="{{ book.image_alt | default: "Preview Image" }}"
+                    alt="{{ book.image_alt | default: "{{ book.title }}" }}"
                     >
                 {% endif %}
                   <div class="card-body">
