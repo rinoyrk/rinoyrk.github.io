@@ -1,6 +1,6 @@
 ---
 layout: books
-title:  "Must have books for a JavaScript developer"
+title:  "Must have books for a JavaScript Developer"
 author: "Rinoy R K"
 date: 2022-09-29 11:33:00 +0800
 books:
@@ -13,6 +13,5 @@ books:
      title: 'JavaScript the Definitive Guide'
      description: 'This the content1'
      image: '/assets/img/books/js/JavaScript-the-Definitive-Guide.jpg'
-
-   
 ---
+Test content for page
