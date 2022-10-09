@@ -16,6 +16,7 @@ tabs:
   collections: Collections
   archives: Archives
   about: About
+  services: Services
 
 # the text displayed in the search bar & search results
 search:
@@ -24,7 +25,7 @@ search:
   no_results: Oops! Nothing found.
 
 panel:
-  lastmod: Recent Update
+  lastmod: Recent Blog
   trending_tags: Trending Tags
   toc: Contents
 
