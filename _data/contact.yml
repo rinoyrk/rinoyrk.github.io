@@ -22,7 +22,7 @@
 # Uncomment and complete the url below to enable more contact options
 -
   type: medium
-  icon: 'fa fa-medium'   # icons powered by <https://fontawesome.com/>
+  icon: 'fab fa-medium'   # icons powered by <https://fontawesome.com/>
   url:  'https://medium.com/@rinoyrk'                  # Fill with your medium
 
 -
