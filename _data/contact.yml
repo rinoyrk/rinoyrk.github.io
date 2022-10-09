@@ -21,11 +21,11 @@
 
 # Uncomment and complete the url below to enable more contact options
 -
-  type: fiverr
-  icon: 'fa fa-shopping-cart'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.fiverr.com/rinoyrk'                  # Fill with your fiverr
+  type: medium
+  icon: 'fa fa-medium'   # icons powered by <https://fontawesome.com/>
+  url:  'https://medium.com/@rinoyrk'                  # Fill with your medium
 
-# -
-#   type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+-
+  type: stack-overflow
+  icon: 'fab fa-stack-overflow'
+  url:  'https://stackoverflow.com/users/4141079/rinoy-r-k'                  # Fill with your stackoverflow homepage
