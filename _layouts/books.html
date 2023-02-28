@@ -56,8 +56,12 @@ layout: default
         {% if page.books.size > 0 %}
 
         <div class="mt-5 mb-2 mb-sm-4">
-            <div class="card-deck mb-4">
             {% for book in page.books %}
+            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+            {% if thecycle == 'odd' %}
+            <div class="card-deck mb-4">
+            {% endif %}
+
               <div class="card" style="background-color: #ffffff0f;">
                 
                 <a rel="nofollow" target="_blank" href="{{ book.ext_url }}" title="{{ book.title }}">
@@ -78,10 +82,11 @@ layout: default
                   </div>
                 </a>
               </div>
-            {% endfor %}
+            {% if thecycle == 'odd' %}
             </div> <!-- .card-deck -->
+            {% endif %}
+            {% endfor %}
           </div> <!-- #related-posts -->
-
         {% endif %}
 
       </div>

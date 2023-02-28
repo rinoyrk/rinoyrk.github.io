@@ -8,7 +8,6 @@ books:
      title: 'Professional JavaScript for Web Developers'
      description: ''
      image: '/assets/img/books/js/Professional-JavaScript-for-Web-Developers.jpg'
-   
    - ext_url: 'https://amzn.to/3xT0vCo'
      title: 'JavaScript the Definitive Guide'
      description: ''
