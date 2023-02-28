@@ -5,13 +5,13 @@ order: 5
 ---
 
 
-Hi, I'm Rinoy R K, a Full-Stack Developer. Focused on code quality. Passionate to develop challenging projects.
+Hi, I am a Full-Stack Developer. Focused on code quality. Passionate to develop challenging projects.
 
 > **Current Focus**: Python, React/Next, React Native
 
-## Experience
+## Professional Experience
 
-5+ years
+6+ years
 
 ## Skills
 

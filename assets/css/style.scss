@@ -10,3 +10,16 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
 @import "{{ site.theme }}";
 
 /* append your custom style below */
+
+.post-content a:not(.img-link), .post-meta a{
+  border-bottom: none;
+}
+.post-content a:not(.img-link), .post-meta a:hover{
+  border-bottom: none;
+}
+.post-content a:not(.img-link) img, .post-meta a img{
+  opacity: 0.9;
+}
+.post-content a:not(.img-link):hover img, .post-meta a:hover img{
+  opacity: 1;
+}
