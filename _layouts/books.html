@@ -57,8 +57,7 @@ layout: default
 
         <div class="mt-5 mb-2 mb-sm-4">
           {% for book in page.books %}
-            {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-            {% if thecycle == 'odd' %}
+            {% if forloop.index % 2 == 0 %}
             <div class="card-deck mb-4">
             {% endif %}
 
@@ -82,7 +81,7 @@ layout: default
                   </div>
                 </a>
               </div>
-            {% if thecycle == 'even' %}
+            {% if forloop.index % 2 == 0 %}
             </div> <!-- .card-deck -->
             {% endif %}
           {% endfor %}
