@@ -56,10 +56,15 @@ layout: default
         {% if page.books.size > 0 %}
 
         <div class="mt-5 mb-2 mb-sm-4">
-          {% for book in page.books %}
-            {% if forloop.index % 2 == 0 %}
+
+          {% assign rows = page.books.size | divided_by: 2.0 | ceil %}
+            {% for i in (1..rows) %}
+            {% assign offset = forloop.index0 | times: 2 %}
             <div class="card-deck mb-4">
-            {% endif %}
+
+
+
+              {% for book in page.books limit:2 offset:offset %}
 
               <div class="card" style="background-color: #ffffff0f;">
                 
@@ -81,10 +86,10 @@ layout: default
                   </div>
                 </a>
               </div>
-            {% if forloop.index % 2 != 0 %}
+                {% endfor %}
+
             </div> <!-- .card-deck -->
-            {% endif %}
-          {% endfor %}
+            {% endfor %}
           </div> <!-- #related-posts -->
         {% endif %}
 
