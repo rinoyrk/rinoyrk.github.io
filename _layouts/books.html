@@ -56,7 +56,7 @@ layout: default
         {% if page.books.size > 0 %}
 
         <div class="mt-5 mb-2 mb-sm-4">
-            {% for book in page.books %}
+          {% for book in page.books %}
             {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
             {% if thecycle == 'odd' %}
             <div class="card-deck mb-4">
@@ -85,7 +85,7 @@ layout: default
             {% if thecycle == 'even' %}
             </div> <!-- .card-deck -->
             {% endif %}
-            {% endfor %}
+          {% endfor %}
           </div> <!-- #related-posts -->
         {% endif %}
 
