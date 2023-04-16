@@ -29,3 +29,8 @@
   type: stack-overflow
   icon: 'fab fa-stack-overflow'
   url:  'https://stackoverflow.com/users/4141079/rinoy-r-k'                  # Fill with your stackoverflow homepage
+
+-
+  type: skype
+  icon: 'fab fa-skype'
+  url:  'https://join.skype.com/invite/YRpAYwbjSoeg'                  # Fill with your skype profile
