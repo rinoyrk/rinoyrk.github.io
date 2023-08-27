@@ -171,10 +171,12 @@ exclude:
   - '*.json'
 
 jekyll-archives:
-  enabled: [categories, tags]
+  enabled: [categories, tags, library]
   layouts:
     category: category
     tag: tag
+    library: library
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+    library: /library/:name/
