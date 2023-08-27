@@ -13,8 +13,9 @@ tabs:
   home: Home
   categories: Categories
   tags: Tags
-  library: Library
+  collections: Collections
   archives: Archives
+  library: Library
   about: About
   services: Services
 

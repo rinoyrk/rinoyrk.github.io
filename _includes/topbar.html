@@ -23,12 +23,17 @@
             </a>
           </span>
 
+        {% elsif forloop.index == 1 and forloop.length == 3 and page.layout == 'library' %}
+          <span>
+            <a href="{{ item | relative_url }}">
+              {{ site.data.locales[lang].tabs[item] | capitalize }}
+            </a>
+          </span>
+
         {% elsif forloop.last %}
 
           {% if page.collection == 'tabs' %}
             <span>{{ site.data.locales[lang].tabs[item] | default: page.title }}</span>
-          {% elsif page.collection == 'library' %}
-            <span><a href="{{ item | relative_url }}">{{ site.data.locales[lang].tabs[item] | default: page.title }}</a></span>
           {% else %}
             <span>{{ page.title }}</span>
           {% endif %}
