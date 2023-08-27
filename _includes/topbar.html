@@ -28,7 +28,7 @@
           {% if page.collection == 'tabs' %}
             <span>{{ site.data.locales[lang].tabs[item] | default: page.title }}</span>
           {% elsif page.collection == 'library' %}
-            <span><a href="{{ item | relative_url }}">{{ site.data.locales[lang].library[item] | default: page.title }}</a></span>
+            <span><a href="{{ item | relative_url }}">{{ site.data.locales[lang].tabs[item] | default: page.title }}</a></span>
           {% else %}
             <span>{{ page.title }}</span>
           {% endif %}
