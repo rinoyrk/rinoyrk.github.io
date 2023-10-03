@@ -5,9 +5,9 @@ order: 5
 ---
 
 
-Hi, I am a Full-Stack Developer. Focused on code quality. Passionate to develop challenging projects.
+Greetings, I'm a software engineer dedicated to crafting high-quality code and solving intricate challenges with a passion for elegance.
 
-> **Current Focus**: Python, React/Next, React Native
+> **Current Focus**: Python, React/Next, Machine Learning
 
 ## Professional Experience
 
