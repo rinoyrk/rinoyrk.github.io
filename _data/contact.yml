@@ -1,36 +1,30 @@
 #  The contact options.
 
--
-  type: github
-  icon: 'fab fa-github'
+- type: github
+  icon: "fab fa-github"
 # -
 #   type: twitter
 #   icon: 'fab fa-fa fa-linkedin-square'
--
-  type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/rinoy-rk/'                  # Fill with your Linkedin homepage
--
-  type: email
-  icon: 'fas fa-envelope'
-  noblank: true            # open link in current tab
+- type: linkedin
+  icon: "fab fa-linkedin" # icons powered by <https://fontawesome.com/>
+  url: "https://www.linkedin.com/in/rinoy-rk/" # Fill with your Linkedin homepage
+- type: email
+  icon: "fas fa-envelope"
+  noblank: true # open link in current tab
 # -
 #   type: rss
 #   icon: 'fas fa-rss'
 #   noblank: true
 
 # Uncomment and complete the url below to enable more contact options
--
-  type: medium
-  icon: 'fab fa-medium'   # icons powered by <https://fontawesome.com/>
-  url:  'https://medium.com/@rinoyrk'                  # Fill with your medium
+- type: medium
+  icon: "fab fa-medium" # icons powered by <https://fontawesome.com/>
+  url: "https://medium.com/@rinoyrk" # Fill with your medium
 
--
-  type: stack-overflow
-  icon: 'fab fa-stack-overflow'
-  url:  'https://stackoverflow.com/users/4141079/rinoy-r-k'                  # Fill with your stackoverflow homepage
+- type: youtube
+  icon: "fa-youtube-play "
+  url: "https://www.youtube.com/@rinoyrk" # Fill with your stackoverflow homepage
 
--
-  type: skype
-  icon: 'fab fa-skype'
-  url:  'https://join.skype.com/invite/YRpAYwbjSoeg'                  # Fill with your skype profile
+- type: twitter
+  icon: "fa fa-twitter"
+  url: "https://x.com/rinoy_rk" # Fill with your skype profile
