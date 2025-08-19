@@ -23,8 +23,8 @@
 
 - type: youtube
   icon: "fa-youtube-play "
-  url: "https://www.youtube.com/@rinoyrk" # Fill with your stackoverflow homepage
+  url: "https://www.youtube.com/@rinoyrk" # Fill with your youtube channel
 
 - type: twitter
   icon: "fa fa-twitter"
-  url: "https://x.com/rinoy_rk" # Fill with your skype profile
+  url: "https://x.com/rinoy_rk" # Fill with your x profile
