@@ -22,9 +22,9 @@
   url: "https://medium.com/@rinoyrk" # Fill with your medium
 
 - type: youtube
-  icon: "fa-youtube-play "
+  icon: "fa fa-youtube-play"
   url: "https://www.youtube.com/@rinoyrk" # Fill with your youtube channel
 
 - type: twitter
-  icon: "fa fa-twitter"
+  icon: "fab fa-twitter"
   url: "https://x.com/rinoy_rk" # Fill with your x profile
