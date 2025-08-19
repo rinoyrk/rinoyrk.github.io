@@ -25,6 +25,6 @@
   icon: "fab fa-youtube"
   url: "https://www.youtube.com/@rinoyrk" # Fill with your youtube channel
 
-- type: twitter
+- type: x
   icon: "fab fa-twitter"
   url: "https://x.com/rinoy_rk" # Fill with your x profile
