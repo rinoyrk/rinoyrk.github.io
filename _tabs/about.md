@@ -4,14 +4,13 @@ icon: fas fa-info-circle
 order: 5
 ---
 
-
 Greetings, I'm a software engineer dedicated to crafting high-quality code and solving intricate challenges with a passion for elegance.
 
-> **Current Focus**: Python, React/Next, Machine Learning
+> **Current Focus**: Python, React|Next, Machine Learning
 
 ## Professional Experience
 
-6+ years
+8 years
 
 ## Skills
 
@@ -41,6 +40,7 @@ Greetings, I'm a software engineer dedicated to crafting high-quality code and s
 - Python
 - Django
 - Flask
+- FastAPI
 
 ### Database
 
@@ -55,3 +55,6 @@ Greetings, I'm a software engineer dedicated to crafting high-quality code and s
 - Grunt
 - Webpack
 
+### Machine Learning
+
+- BERT
