@@ -6,7 +6,7 @@ order: 5
 
 Greetings, I'm a software engineer dedicated to crafting high-quality code and solving intricate challenges with a passion for elegance.
 
-> **Current Focus**: Python, React|Next, Machine Learning
+> **Current Focus**: Python, React/Next, Machine Learning
 
 ## Professional Experience
 
