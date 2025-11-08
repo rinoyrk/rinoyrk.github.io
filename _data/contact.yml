@@ -22,8 +22,8 @@
   url: "https://medium.com/@rinoyrk" # Fill with your medium
 
 # - type: youtube
-  icon: "fab fa-youtube"
-  url: "https://www.youtube.com/@rinoyrk" # Fill with your youtube channel
+#   icon: "fab fa-youtube"
+#   url: "https://www.youtube.com/@rinoyrk" # Fill with your youtube channel
 
 - type: x
   icon: "fab fa-twitter"
