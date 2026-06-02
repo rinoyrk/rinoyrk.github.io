@@ -1,5 +1,4 @@
 ---
-
 title: Building SmartnTechs
 description: The story behind creating SmartnTechs, my fourth website and a long-term technology project that has evolved for more than a decade.
 author: Rinoy RK
@@ -12,7 +11,7 @@ mermaid: false
 image:
 path: /assets/img/posts/smartntechs-cover.jpg
 alt: SmartnTechs website project
---------------------------------
+---
 
 ## Building SmartnTechs: A Journey That Started in 2013
 
