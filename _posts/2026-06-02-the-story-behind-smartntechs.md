@@ -1,21 +1,22 @@
 ---
-title: Building SmartnTechs: How My Fourth Website Became a Decade-Long Technology Project
-description: The story behind SmartnTechs, a technology website I launched in 2013 after three failed attempts, and how it evolved into a long-term project focused on quality content, performance, and device comparison tools.
-author: Rinoy
+
+title: Building SmartnTechs
+description: The story behind creating SmartnTechs, my fourth website and a long-term technology project that has evolved for more than a decade.
+author: Rinoy RK
 date: 2026-06-02 19:00:00 +0530
-categories: [Projects, Technology]
-tags: [smartntechs, technology, blogging, web-development, wordpress, plugin]
+categories: [Projects, Web Development]
+tags: [smartntechs, technology, web-development, wordpress, software-engineering]
 pin: false
 math: false
 mermaid: false
 image:
-  path: /assets/img/posts/smartntechs-cover.png
-  alt: SmartnTechs technology website and development journey.
----
+path: /assets/img/posts/smartntechs-cover.jpg
+alt: SmartnTechs website project
+--------------------------------
 
-# Building SmartnTechs: A Journey That Started in 2013
+## Building SmartnTechs: A Journey That Started in 2013
 
-On April 28, 2013, I launched [SmartnTechs](https://smartntechs.com/), a project that would become one of the most significant milestones in my journey as a developer and technology enthusiast.
+On April 28, 2013, I launched SmartnTechs, a project that would become one of the most significant milestones in my journey as a developer and technology enthusiast.
 
 What makes SmartnTechs special to me is that it wasn't my first website. In fact, it was my fourth attempt. The three websites I created before it failed to achieve the vision I had in mind. Those failures taught me valuable lessons about content, user experience, consistency, and the importance of creating something meaningful for readers.
 
@@ -41,10 +42,10 @@ The journey of building SmartnTechs closely parallels my own growth as a softwar
 
 Over the years, I have worked across multiple domains, including:
 
-- Web development
-- Mobile application development
-- Software engineering projects
-- Game development
+* Web development
+* Mobile application development
+* Software engineering projects
+* Game development
 
 Today, I continue exploring new technologies and am currently working on a mobile game project as well.
 
@@ -56,12 +57,12 @@ One aspect of SmartnTechs that has never remained static is its design and perfo
 
 Throughout its lifetime, I have repeatedly optimized the website to improve:
 
-- Loading speed
-- User interface design
-- User experience
-- Mobile responsiveness
-- Content accessibility
-- Overall performance
+* Loading speed
+* User interface design
+* User experience
+* Mobile responsiveness
+* Content accessibility
+* Overall performance
 
 Technology and user expectations constantly evolve, and maintaining a website for more than a decade requires continuous refinement. Every redesign, optimization, and improvement has been driven by the goal of making the site faster, cleaner, and easier to use.
 
@@ -71,11 +72,11 @@ One of the most exciting recent additions to SmartnTechs is a custom-built devic
 
 I developed a comparison plugin that allows users to compare up to five devices simultaneously within the same category. Currently, the system supports:
 
-- Smartphones
-- Smartwatches
-- Tablets
-- Laptops
-- Desktop Computers
+* Smartphones
+* Smartwatches
+* Tablets
+* Laptops
+* Desktop Computers
 
 In addition to comparisons, each device has its own dedicated specifications page containing detailed technical information.
 
@@ -89,4 +90,4 @@ What started as a fourth attempt after three failed websites became a long-term 
 
 SmartnTechs remains an ongoing project, continuously evolving with new features, better content, and improved user experiences. The journey is far from over, and I am excited to see where it goes next.
 
-If you'd like to explore the project, visit **[SmartnTechs](https://smartntechs.com/)** and see how it has evolved over the years.
+If you'd like to explore the project, visit SmartnTechs at https://smartntechs.com/ and see how it has evolved over the years.
