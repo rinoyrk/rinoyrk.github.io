@@ -13,7 +13,7 @@ path: /assets/img/posts/smartntechs-cover.jpg
 alt: SmartnTechs website project
 ---
 
-## Building SmartnTechs: A Journey That Started in 2013
+## A Journey That Started in 2013
 
 On April 28, 2013, I launched SmartnTechs, a project that would become one of the most significant milestones in my journey as a developer and technology enthusiast.
 
@@ -27,7 +27,7 @@ From the beginning, SmartnTechs was created with a clear goal: to provide valuab
 
 As someone who has always been passionate about technology, the website became a place where I could share that passion with others. Whether it was discussing new technologies, reviewing products, or explaining technical concepts, the focus was always on delivering quality content rather than simply publishing articles for volume.
 
-Visit SmartnTechs: https://smartntechs.com/
+Visit **[SmartnTechs](https://smartntechs.com/)**
 
 ## From Tech News to Evergreen Content
 
@@ -89,4 +89,4 @@ What started as a fourth attempt after three failed websites became a long-term 
 
 SmartnTechs remains an ongoing project, continuously evolving with new features, better content, and improved user experiences. The journey is far from over, and I am excited to see where it goes next.
 
-If you'd like to explore the project, visit SmartnTechs at https://smartntechs.com/ and see how it has evolved over the years.
+If you'd like to explore the project, visit **[SmartnTechs](https://smartntechs.com/)** and see how it has evolved over the years.
